@@ -3,8 +3,8 @@
 
 
 
-if (isset($_GET['username'])) {
-    echo $_GET['empid'];
+if (isset($_POST['username'])) {
+    echo $_POST['username'];
 }else{
     // else part
 }
