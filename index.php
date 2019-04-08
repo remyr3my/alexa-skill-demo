@@ -10,7 +10,7 @@ if (isset($_GET['username'])) {
 }
 
 
-$text = "hello Alexa, Remy " . $name;
+$text = "hello Alexa, Remy " ;
 
 $array = array("version" => "1.0", "response" => array("outputSpeech" => array("type" => "PlainText", "text" => $text)));
 
