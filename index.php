@@ -1,8 +1,13 @@
 <?php
 
 
- $name = $_GET['username'];
-echo $name;
+
+
+if (isset($_GET['username'])) {
+    echo $_GET['empid'];
+}else{
+    // else part
+}
 
 
 $text = "hello Alexa, Remy " . $name;
