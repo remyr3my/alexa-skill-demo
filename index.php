@@ -3,8 +3,8 @@
  $text = "hello Alexa, Remy ";
 
 if (isset($_POST['username'])) {
-    echo $_POST['username'];
-    $text = "hello Alexa, Remy " . $_POST['username'] ;
+ 
+    $text = "hello Alexa, Remy here with  " . $_POST['username'] ;
 }
 
 
